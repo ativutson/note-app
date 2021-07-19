@@ -48,7 +48,7 @@ const userCtrl = {
                 if(err) return res.send(false);
 
                 const user = await Users.findById(verified.id)
-                if(!user) return res.send(true);
+                if(!user) return res.send(false);
 
                 return res.send(true);
             })
