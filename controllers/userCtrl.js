@@ -16,7 +16,7 @@ const userCtrl = {
                 password: passwordHash
             })
             await newUser.save()
-            // res.json({msg: "Signup Successful"})
+            res.json({msg: "Signup Successful"})
         } catch (err) {
             return res.status(500).json({msg: err.message})
         }
