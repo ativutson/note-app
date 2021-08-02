@@ -9,7 +9,6 @@ export default function Nav({setIsLogin}) {
     }
     return (
         <header>
-
             <div className="logo">
                 <h1><Link to="/">Dev Notes</Link></h1>
             </div>
@@ -17,7 +16,6 @@ export default function Nav({setIsLogin}) {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/create">Create Note</Link></li>
                 <li onClick={logoutSubmit}><Link to="/">Log Out</Link></li>
-
             </ul>
         </header>
     )

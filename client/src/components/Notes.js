@@ -13,10 +13,9 @@ export default function Notes({setIsLogin}) {
             <Header setIsLogin={setIsLogin} />
             <section>
                 <Route path="/" component={Home} exact />
-                <Route path="/create" component={Home} exact />
+                <Route path="/create" component={CreateNote} exact />
                 <Route path="/edit/:id" component={EditNote} exact />
             </section>
-            
         </div>
         </Router>
     ) 
