@@ -22,7 +22,7 @@ app.listen(PORT, () => {
     console.log('Server is running on port', PORT);
 })
 
-// Connect to MpngoDB
+// Connect to MongoDB
 const URI = process.env.MONGODB_URL;
 mongoose.connect(URI, {
     useCreateIndex: true,

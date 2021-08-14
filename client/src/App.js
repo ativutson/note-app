@@ -26,11 +26,10 @@ function App() {
   return (
     <div className="App">
       {
-        isLogin ? 
-        <Notes setIsLogin={setIsLogin} /> 
+        isLogin 
+        ? <Notes setIsLogin={setIsLogin} /> 
         : <Login setIsLogin={setIsLogin} />
       }
-      
     </div>
   );
 }

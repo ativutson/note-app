@@ -102,7 +102,6 @@ export default function Login({setIsLogin}) {
                     <h3>{err}</h3>
                 </form>
             </div>
-
         </selection>
     )
 }
