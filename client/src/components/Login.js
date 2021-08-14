@@ -61,7 +61,7 @@ export default function Login({setIsLogin}) {
     }
 
     return (
-        <selection className="login-page">
+        <section className="login-page">
             <div className="login create-note">
                 <h2>Login</h2>
                 <form onSubmit={loginSubmit}>
@@ -102,7 +102,7 @@ export default function Login({setIsLogin}) {
                     <h3>{err}</h3>
                 </form>
             </div>
-        </selection>
+        </section>
     )
 }
        
