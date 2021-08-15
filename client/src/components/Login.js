@@ -63,7 +63,7 @@ export default function Login({setIsLogin}) {
     return (
         <section className="login-page">
             <div className="login create-note">
-                <h2>Login</h2>
+                <h2>Log in</h2>
                 <form onSubmit={loginSubmit}>
                     <input type="email" name="email" id="login-email"
                     placeholder="Email" required value={user.email}
@@ -73,7 +73,7 @@ export default function Login({setIsLogin}) {
                     placeholder="Password" required value={user.password}
                     autoComplete="true" onChange={onChangeInput} />
 
-                    <button type="submit">Login</button>
+                    <button type="submit">Log in</button>
                     <p>You don't have an account?
                         <span onClick={() => setOnLogin(true)}> Register</span>
                     </p>
